@@ -8,7 +8,9 @@ body {
 
     color: orange;
     background: #777;
-    
+    font-style: italic;
+    text-align: center;
+
 }
 
 .clearfix {
@@ -25,29 +27,29 @@ body {
     width: 960px;
     font-size: 18px;
     margin-left: 50px;
-
+    
 }
 
 header {
 
-    border: 2px solid orange;
+    border: 5px solid orange;
     margin: 20px 0px 20px 0px;
     padding: 15px;
 }
 
 nav {
 
-    border: 2px solid orange;
+    border: 5px solid orange;
     padding: 15px;
 
 }
 
 .aside {
 
-    border: 2px solid orange;
+    border: 5px solid orange;
     padding: 15px;
     float: right;
-    width: 390px;
+    width: 380px;
     height: 200px;
     margin: 20px 0px 20px 0px;
 
@@ -55,7 +57,7 @@ nav {
 
 .section {
 
-    border: 2px solid orange;
+    border: 5px solid orange;
     padding: 15px;
     float: left;
     width: 480px;
@@ -67,7 +69,7 @@ nav {
 
 .article {
 
-    border: 2px solid orange;
+    border: 3px solid orange;
     padding: 15px;
     background: white;
 
@@ -92,8 +94,8 @@ nav {
 
 footer {
 
-    border: 2px solid orange;
+    border: 5px solid orange;
     padding: 15px;
-    width: 97%;
+    width: 96%;
 
 }
