@@ -26,7 +26,7 @@ body {
     text-align: center;
     width: 960px;
     font-size: 18px;
-    margin-left: 50px;
+    margin-left: 85px;
     
 }
 
@@ -37,10 +37,22 @@ header {
     padding: 15px;
 }
 
+header:hover {
+
+    background: purple;
+
+}
+
 nav {
 
     border: 5px solid orange;
     padding: 15px;
+
+}
+
+nav:hover {
+
+    opacity: 0;
 
 }
 
@@ -55,6 +67,12 @@ nav {
 
 }
 
+.aside:hover {
+
+    transform: rotate(90deg);
+
+}
+
 .section {
 
     border: 5px solid orange;
@@ -64,6 +82,15 @@ nav {
     height: 200px;
     margin: 20px 20px 20px 0px;
     background: black;
+    animation-name: colorific;
+    animation-duration: 5s;
+
+}
+
+@keyframes colorific {
+
+    from {background-color: black;}
+    to {background-color: purple;}
 
 }
 
@@ -72,6 +99,12 @@ nav {
     border: 3px solid orange;
     padding: 15px;
     background: white;
+
+}
+
+.article:hover {
+
+    zoom: 150%;
 
 }
 
@@ -97,5 +130,12 @@ footer {
     border: 5px solid orange;
     padding: 15px;
     width: 96%;
+
+}
+
+footer:hover {
+
+    border-color: gray;
+    background-color: orange;
 
 }
