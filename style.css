@@ -1,0 +1,99 @@
+html {
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+body {
+
+    color: orange;
+    background: #777;
+    
+}
+
+.clearfix {
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.container {
+
+    text-align: center;
+    width: 960px;
+    font-size: 18px;
+    margin-left: 50px;
+
+}
+
+header {
+
+    border: 2px solid orange;
+    margin: 20px 0px 20px 0px;
+    padding: 15px;
+}
+
+nav {
+
+    border: 2px solid orange;
+    padding: 15px;
+
+}
+
+.aside {
+
+    border: 2px solid orange;
+    padding: 15px;
+    float: right;
+    width: 390px;
+    height: 200px;
+    margin: 20px 0px 20px 0px;
+
+}
+
+.section {
+
+    border: 2px solid orange;
+    padding: 15px;
+    float: left;
+    width: 480px;
+    height: 200px;
+    margin: 20px 20px 20px 0px;
+    background: black;
+
+}
+
+.article {
+
+    border: 2px solid orange;
+    padding: 15px;
+    background: white;
+
+}
+
+.headers {
+
+    border: 2px solid orange;
+    padding: 15px;
+    background: gray;
+    margin-bottom: 10px;
+
+}
+
+.para {
+
+    border: 2px solid orange;
+    padding: 15px;
+    background: gray;
+
+}
+
+footer {
+
+    border: 2px solid orange;
+    padding: 15px;
+    width: 97%;
+
+}
